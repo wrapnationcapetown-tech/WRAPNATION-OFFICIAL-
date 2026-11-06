@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WRAPNATION - Premium vehicle wrapping, paint protection film and custom automotive finishes in Cape Town.">
+<title>WRAPNATION | Your Ride. Your Vision.</title>
+<style>
+:root{--bg:#080808;--panel:#121212;--white:#f5f5f5;--muted:#999;--line:#292929}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+header{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:sticky;top:0;background:#080808ed;z-index:10}
+.logo{font-size:23px;font-weight:900;letter-spacing:3px}
+nav{display:flex;gap:25px;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+nav a:hover{color:#aaa}
+.btn{display:inline-block;background:white;color:black;padding:14px 23px;font-size:11px;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;border:1px solid white;cursor:pointer}
+.btn:hover{background:transparent;color:white}
+.hero{min-height:590px;padding:110px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#080808 15%,#080808d9 55%,#08080855),url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-content{max-width:700px}
+.eyebrow{font-size:11px;letter-spacing:4px;color:#bbb;text-transform:uppercase;margin-bottom:22px}
+h1{font-size:clamp(48px,8vw,88px);line-height:.98;letter-spacing:-4px;font-weight:900}
+h1 span{color:#888}
+.hero p{max-width:480px;color:#c0c0c0;margin:28px 0 32px;font-size:16px}
+section{padding:90px 8%}
+.section-label{color:#888;font-size:11px;letter-spacing:3px;text-transform:uppercase;margin-bottom:14px}
+h2{font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-1.5px;margin-bottom:20px}
+.intro{max-width:650px;color:var(--muted);margin-bottom:40px}
+.services{background:#0d0d0d}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.service{background:var(--panel);padding:35px;min-height:190px;border:1px solid var(--line)}
+.service .number{font-size:12px;color:#777;letter-spacing:2px}
+.service h3{font-size:23px;margin:22px 0 10px}
+.service p{font-size:14px;color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-art{min-height:340px;background:linear-gradient(145deg,#252525,#090909);display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+.about-art strong{font-size:clamp(30px,5vw,55px);letter-spacing:5px}
+.about-copy p{color:var(--muted);margin:18px 0}
+.gallery{background:#0d0d0d}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gallery-grid div{height:180px;background:linear-gradient(145deg,#292929,#101010);display:flex;align-items:end;padding:18px;font-size:12px;letter-spacing:2px;color:#ccc}
+.quote{background:#080808}
+form{max-width:760px;display:grid;grid-template-columns:1fr 1fr;gap:15px}
+input,select,textarea{width:100%;padding:16px;background:#111;color:white;border:1px solid #333;border-radius:0;font:inherit;font-size:14px}
+input::placeholder,textarea::placeholder{color:#777}
+textarea{grid-column:1/-1;min-height:120px;resize:vertical}
+.full{grid-column:1/-1}
+form button{width:max-content}
+.form-note{color:#888;font-size:12px;margin-top:15px}
+#form-message{color:#ddd;font-size:13px;margin-top:12px}
+footer{padding:35px 8%;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#888;font-size:12px}
+@media(max-width:700px){
+header{padding:0 5%;height:66px}
+nav{gap:12px;font-size:10px}
+nav a:nth-child(2),nav a:nth-child(3){display:none}
+.logo{font-size:19px}
+.hero{min-height:560px;padding:90px 7%}
+h1{letter-spacing:-2px}
+section{padding:70px 7%}
+.grid,.about,.gallery-grid{grid-template-columns:1fr}
+.gallery-grid div{height:150px}
+form{grid-template-columns:1fr}
+textarea,.full{grid-column:1}
+}
+</style>
+</head>
+<body>
+
+<header>
+<a class="logo" href="#">WRAPNATION</a>
+<nav>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#gallery">Projects</a>
+<a href="#quote">Get a Quote</a>
+</nav>
+</header>
+
+<main>
+<div class="hero">
+<div class="hero-content">
+<div class="eyebrow">Cape Town · South Africa</div>
+<h1>YOUR RIDE.<br><span>YOUR VISION.</span></h1>
+<p>Automotive transformation without compromise. Premium vehicle wraps, paint protection and custom finishes, made to stand out.</p>
+<a class="btn" href="#quote">Request a Quote</a>
+</div>
+</div>
+
+<section class="services" id="services">
+<div class="section-label">What we do</div>
+<h2>Beyond the ordinary.</h2>
+<p class="intro">From subtle refinements to complete transformations, every project is approached with precision and attention to detail.</p>
+<div class="grid">
+<div class="service"><span class="number">01 / WRAPPING</span><h3>Vehicle Wrapping</h3><p>Premium colour changes, custom finishes and partial wraps.</p></div>
+<div class="service"><span class="number">02 / PROTECTION</span><h3>Paint Protection Film</h3><p>Protect your vehicle's original finish with professional PPF installation.</p></div>
+<div class="service"><span class="number">03 / CUSTOM</span><h3>Custom Finishes</h3><p>Personalised styling and detailing that make your vehicle yours.</p></div>
+<div class="service"><span class="number">04 / BRANDING</span><h3>Vehicle Branding</h3><p>Professional vehicle graphics and branding for businesses and fleets.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="about-art"><strong>WRAPNATION</strong></div>
+<div class="about-copy">
+<div class="section-label">The standard</div>
+<h2>Built around your vision.</h2>
+<p>WRAPNATION is focused on delivering quality automotive transformations through skilled workmanship, carefully selected materials and attention to detail.</p>
+<p>Workshop and mobile services available across Cape Town and surrounding areas.</p>
+<a class="btn" href="#quote">Let's Discuss Your Project</a>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<div class="section-label">Our work</div>
+<h2>Every detail matters.</h2>
+<p class="intro">Explore our latest transformations and projects. Our project gallery will be updated as new work is completed.</p>
+<div class="gallery-grid">
+<div>COLOUR TRANSFORMATIONS</div>
+<div>PAINT PROTECTION</div>
+<div>VEHICLE BRANDING</div>
+</div>
+</section>
+
+<section class="quote" id="quote">
+<div class="section-label">Start your project</div>
+<h2>Request a quote.</h2>
+<p class="intro">Tell us about your vehicle and what you have in mind. Our team will get back to you.</p>
+
+<form id="enquiry-form">
+<input name="name" placeholder="Full name" required>
+<input name="phone" type="tel" placeholder="WhatsApp / Phone number" required>
+<input name="email" type="email" placeholder="Email address (optional)">
+<input name="vehicle" placeholder="Vehicle make and model" required>
+<select name="service" required>
+<option value="">Select a service</option>
+<option>Full vehicle wrap</option>
+<option>Partial wrap</option>
+<option>Paint protection film (PPF)</option>
+<option>Custom finish</option>
+<option>Vehicle branding</option>
+<option>Other</option>
+</select>
+<input name="year" placeholder="Vehicle year">
+<input name="finish" placeholder="Desired colour / finish">
+<input name="referral_code" id="referral-code" placeholder="Referral code (optional)">
+<textarea name="message" placeholder="Tell us more about your project"></textarea>
+<button class="btn full" type="submit">Submit Enquiry</button>
+</form>
+<p class="form-note">Your enquiry form will be connected to our secure system in the next setup stage. This first version does not yet send or store enquiries.</p>
+<p id="form-message" aria-live="polite"></p>
+</section>
+</main>
+
+<footer>
+<div><strong>WRAPNATION</strong><br>YOUR RIDE. YOUR VISION.</div>
+<div>Cape Town and surrounding areas<br>+27 63 295 0793<br>wrapnationcapetown@gmail.com</div>
+<div>© 2026 WRAPNATION. All rights reserved.</div>
+</footer>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const referral = params.get('ref');
+if (referral) {
+  document.getElementById('referral-code').value = referral.toUpperCase();
+}
+document.getElementById('enquiry-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  document.getElementById('form-message').textContent =
+    'The form design is ready. Enquiry submission will be activated when the secure database is connected.';
+});
+</script>
+</body>
+</html>
